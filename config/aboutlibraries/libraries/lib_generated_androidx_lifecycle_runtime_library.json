@@ -1,0 +1,7 @@
+{
+    "uniqueId": "com.example.generated.google.androidx.lifecycle.runtime.library",
+    "name": "AndroidX lifecycle runtime library",
+    "licenses": [
+        "androidx_lifecycle_runtime_library"
+    ]
+}

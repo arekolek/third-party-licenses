@@ -1,0 +1,9 @@
+{
+  "uniqueId": "com.lokalise.android:sdk",
+  "artifactVersion": "2.0.0-beta-10",
+  "name": "Lokalise Android SDK",
+  "website": "https://github.com/lokalise/lokalise-android-sdk/",
+  "licenses": [
+    "1a374ec6acffe5adc8d3f646d7130810"
+  ]
+}

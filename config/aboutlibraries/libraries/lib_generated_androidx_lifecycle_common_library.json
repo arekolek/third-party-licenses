@@ -1,0 +1,7 @@
+{
+    "uniqueId": "com.example.generated.google.androidx.lifecycle.common.library",
+    "name": "AndroidX lifecycle common library",
+    "licenses": [
+        "androidx_lifecycle_common_library"
+    ]
+}

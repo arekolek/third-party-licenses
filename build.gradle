@@ -1,0 +1,72 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        versions = [:]
+        versions.androidxAppcompat = '1.5.1'
+        versions.androidxCore = '1.9.0'
+        versions.androidxFragment = '1.5.2'
+        versions.androidxLegacy = '1.0.0'
+        versions.androidxNavigation = '2.5.2'
+        versions.androidxPreference = '1.2.0'
+        versions.compose = '1.3.0'
+        versions.constraintLayout = '2.1.4'
+        versions.dagger = '2.41'
+        versions.espresso = '3.4.0'
+        versions.firebaseAppDistribution = '2.1.1'
+        versions.firebaseBoM = '30.4.1'
+        versions.firebaseCrashlyticsPlugin = '2.5.2'
+        versions.glide = '4.9.0'
+        versions.googlePlayServicesLocation = '20.0.0'
+        versions.googlePlayServicesMaps = '18.1.0'
+        versions.googlePlayServicesPlugin = '4.3.13'
+        versions.gson = '2.9.1'
+        versions.junit = '4.13.2'
+        versions.junitExt = '1.1.3'
+        versions.junitParams = '1.1.1'
+        versions.junitRules = '1.4.0'
+        versions.kotest = '5.5.1'
+        versions.kotlin = '1.7.20'
+        versions.lifecycle = '2.5.1'
+        versions.lint = '26.6.3'
+        versions.material = '1.1.0'
+        versions.mockito = '2.28.2'
+        versions.mockitoKotlin = '2.1.0'
+        versions.mockk = '1.10.3-jdk8'
+        versions.room = '2.4.3'
+        versions.rxandroid = '2.1.1'
+        versions.rxbinding = '3.0.0-alpha2'
+        versions.rxjava = '2.2.9'
+        versions.rxkotlin = '2.3.0'
+        versions.rxrelay = '2.1.0'
+        versions.serializationConverter = '0.8.0'
+        versions.slf4j = '1.8.0-beta4'
+        versions.viewpager2 = '1.0.0'
+        versions.workManager = '2.7.1'
+    }
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$versions.androidxNavigation"
+        classpath 'com.android.tools.build:gradle:7.3.1'
+        classpath "com.google.firebase:firebase-appdistribution-gradle:$versions.firebaseAppDistribution"
+        classpath "com.google.firebase:firebase-crashlytics-gradle:$versions.firebaseCrashlyticsPlugin"
+        classpath "com.google.gms:google-services:$versions.googlePlayServicesPlugin"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
+        // NOTE: Do not place your application dependencies here; they belong in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

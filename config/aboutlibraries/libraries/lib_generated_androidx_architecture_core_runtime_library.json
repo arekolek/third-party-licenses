@@ -1,0 +1,7 @@
+{
+    "uniqueId": "com.example.generated.google.androidx.architecture.core.runtime.library",
+    "name": "AndroidX architecture core runtime library",
+    "licenses": [
+        "androidx_architecture_core_runtime_library"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "uniqueId": "com.example.generated.google.error.prone",
+    "name": "Error Prone",
+    "licenses": [
+        "error_prone"
+    ]
+}

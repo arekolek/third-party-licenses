@@ -1,0 +1,7 @@
+{
+    "uniqueId": "com.example.generated.google.androidx.lifecycle.livedatacore.library",
+    "name": "AndroidX lifecycle livedatacore library",
+    "licenses": [
+        "androidx_lifecycle_livedatacore_library"
+    ]
+}

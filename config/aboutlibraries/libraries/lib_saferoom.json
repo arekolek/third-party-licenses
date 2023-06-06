@@ -1,0 +1,9 @@
+{
+  "uniqueId": "com.commonsware.cwac:saferoom.x",
+  "artifactVersion": "1.0.0",
+  "name": "CWAC-SafeRoom",
+  "website": "https://github.com/commonsguy/cwac-saferoom",
+  "licenses": [
+    "Apache-2.0"
+  ]
+}

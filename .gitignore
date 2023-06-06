@@ -1,0 +1,10 @@
+*.iml
+.gradle
+.idea/*
+!.idea/codeStyles
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/app-klt/src/androidTest/assets/

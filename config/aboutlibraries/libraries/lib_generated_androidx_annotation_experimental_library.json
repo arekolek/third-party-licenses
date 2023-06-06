@@ -1,0 +1,7 @@
+{
+    "uniqueId": "com.example.generated.google.androidx.annotation.experimental.library",
+    "name": "AndroidX annotation experimental library",
+    "licenses": [
+        "androidx_annotation_experimental_library"
+    ]
+}

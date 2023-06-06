@@ -1,0 +1,120 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-parcelize'
+    id 'kotlin-kapt'
+    id "com.example.tpl.gradle.LicenseCheck"
+    alias(libs.plugins.aboutLibraries)
+}
+
+android {
+    namespace 'com.example.tpl'
+    compileSdk COMPILE_SDK.toInteger()
+    defaultConfig {
+        minSdk MIN_SDK.toInteger()
+        targetSdk TARGET_SDK.toInteger()
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        // ProGuard rules needed to use this library
+        consumerProguardFile 'proguard-rules.pro'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion "1.3.2"
+    }
+
+    buildFeatures {
+        viewBinding = true
+        compose = true
+    }
+}
+
+configurations.all {
+    resolutionStrategy.preferProjectModules()
+}
+
+dependencies {
+    api "androidx.appcompat:appcompat:$versions.androidxAppcompat"
+    api "androidx.constraintlayout:constraintlayout:$versions.constraintLayout"
+    api "androidx.core:core-ktx:$versions.androidxCore"
+    api "androidx.fragment:fragment-ktx:$versions.androidxFragment"
+    api "androidx.legacy:legacy-support-v4:$versions.androidxLegacy"
+    api "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifecycle"
+    api "androidx.navigation:navigation-fragment-ktx:$versions.androidxNavigation"
+    api "androidx.navigation:navigation-ui-ktx:$versions.androidxNavigation"
+    api "androidx.preference:preference-ktx:$versions.androidxPreference"
+    api "androidx.room:room-runtime:$versions.room"
+    api "androidx.room:room-rxjava2:$versions.room"
+    api "androidx.viewpager2:viewpager2:$versions.viewPager2"
+    api "androidx.work:work-runtime-ktx:$versions.workManager"
+    api "androidx.work:work-rxjava2:$versions.workManager"
+    api "androidx.swiperefreshlayout:swiperefreshlayout:$versions.swipeToRefresh"
+    api "com.github.bumptech.glide:glide:$versions.glide"
+    api "com.github.bumptech.glide:okhttp3-integration:$versions.glide"
+    api "com.google.android.gms:play-services-maps:$versions.googlePlayServicesMaps"
+    api "com.google.android.gms:play-services-location:$versions.googlePlayServicesLocation"
+    api "com.google.android.material:material:$versions.material"
+    api "com.google.dagger:dagger:$versions.dagger"
+    api "com.google.dagger:dagger-android:$versions.dagger"
+    api "com.google.dagger:dagger-android-support:$versions.dagger"
+
+    // By using the Firebase Android Bill of Materials, app will always use compatible versions of the Firebase Android libraries
+    api platform("com.google.firebase:firebase-bom:$versions.firebaseBoM")
+    api "com.google.firebase:firebase-crashlytics-ktx"
+    api "com.google.firebase:firebase-messaging-ktx"
+
+    api "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:$versions.serializationConverter"
+    api "com.jakewharton.rxbinding3:rxbinding:$versions.rxbinding"
+    api "com.jakewharton.rxrelay2:rxrelay:$versions.rxrelay"
+    implementation libs.bundles.aboutLibraries
+    api "io.reactivex.rxjava2:rxandroid:$versions.rxandroid"
+    api "io.reactivex.rxjava2:rxkotlin:$versions.rxkotlin"
+    api libs.bundles.paging
+
+    implementation 'androidx.activity:activity-compose:1.6.1'
+    implementation "androidx.compose.ui:ui:$versions.compose"
+    implementation "androidx.compose.ui:ui-tooling:$versions.compose"
+    implementation "androidx.compose.ui:ui-tooling-preview:$versions.compose"
+    implementation "androidx.compose.foundation:foundation:$versions.compose"
+
+    kapt "androidx.room:room-compiler:$versions.room"
+    kapt "com.github.bumptech.glide:compiler:$versions.glide"
+    kapt "com.google.dagger:dagger-android-processor:$versions.dagger"
+    kapt "com.google.dagger:dagger-compiler:$versions.dagger"
+
+    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:$versions.mockitoKotlin"
+    testImplementation "io.kotest:kotest-assertions-core:$versions.kotest"
+    testImplementation "io.mockk:mockk:$versions.mockk"
+    testImplementation "junit:junit:$versions.junit"
+    testImplementation "org.mockito:mockito-core:$versions.mockito"
+    testImplementation "pl.pragmatists:JUnitParams:$versions.junitParams"
+}
+
+aboutLibraries {
+    registerAndroidTasks = false
+    configPath = "config/aboutlibraries"
+    fetchRemoteFunding = false
+    excludeFields = ["artifactVersion", "developers", "funding", "description", "scm"]
+    strictMode = com.mikepenz.aboutlibraries.plugin.StrictMode.FAIL
+    allowedLicenses = [
+            "ASDKL",
+            "Apache-2.0",
+            "BSD-2-Clause",
+            "BSD-3-Clause",
+            "CC0-1.0",
+            "Google Play Services dependency license",
+            "Lokalise License",
+            "MIT",
+            "Play Integrity API Terms of Service",
+            "SQLCipher Community Edition License",
+    ]
+    prettyPrint = true
+}

@@ -1,0 +1,16 @@
+[versions]
+aboutLibraries = "10.5.2"
+paging = "3.1.1"
+
+[libraries]
+aboutLibrariesCore = { module = "com.mikepenz:aboutlibraries-core", version.ref = "aboutLibraries" }
+aboutLibrariesCompose = { module = "com.mikepenz:aboutlibraries-compose", version.ref = "aboutLibraries" }
+paging = { module = "androidx.paging:paging-runtime", version.ref = "paging" }
+pagingRxJava = { module = "androidx.paging:paging-rxjava2", version.ref = "paging" }
+
+[bundles]
+paging = ["paging", "pagingRxJava"]
+aboutLibraries = ["aboutLibrariesCore", "aboutLibrariesCompose"]
+
+[plugins]
+aboutLibraries = { id = "com.mikepenz.aboutlibraries.plugin", version.ref = "aboutLibraries" }

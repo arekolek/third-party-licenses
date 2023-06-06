@@ -1,0 +1,7 @@
+{
+    "uniqueId": "com.example.generated.google.safeparcelable.library",
+    "name": "SafeParcelable library",
+    "licenses": [
+        "safeparcelable_library"
+    ]
+}
