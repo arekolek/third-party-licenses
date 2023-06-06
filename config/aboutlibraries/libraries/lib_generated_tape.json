@@ -2,6 +2,7 @@
     "uniqueId": "com.example.generated.google.tape",
     "name": "Tape",
     "licenses": [
-        "tape"
+        "Apache-2.0",
+        "Tape license"
     ]
 }

@@ -2,6 +2,7 @@
     "uniqueId": "com.example.generated.google.firebase",
     "name": "Firebase",
     "licenses": [
-        "firebase"
+        "Apache-2.0",
+        "Firebase license"
     ]
 }

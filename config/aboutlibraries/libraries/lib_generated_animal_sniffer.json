@@ -2,6 +2,7 @@
     "uniqueId": "com.example.generated.google.animal.sniffer",
     "name": "Animal Sniffer",
     "licenses": [
-        "animal_sniffer"
+        "MIT",
+        "Animal Sniffer license"
     ]
 }

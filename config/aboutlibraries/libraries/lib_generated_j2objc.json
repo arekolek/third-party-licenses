@@ -2,6 +2,8 @@
     "uniqueId": "com.example.generated.google.j2objc",
     "name": "J2ObjC",
     "licenses": [
-        "j2objc"
+        "Apache-2.0",
+        "BSD-3-2",
+        "J2ObjC license"
     ]
 }

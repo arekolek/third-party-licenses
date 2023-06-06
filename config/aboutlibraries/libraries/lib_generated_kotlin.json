@@ -2,6 +2,14 @@
     "uniqueId": "com.example.generated.google.kotlin",
     "name": "Kotlin",
     "licenses": [
-        "kotlin"
+        "GNU LGPL",
+        "GNU GPL",
+        "Apache-2.0",
+        "MIT",
+        "Netscape",
+        "Boost",
+        "Eclipse",
+        "BSD-3-1",
+        "Kotlin license"
     ]
 }

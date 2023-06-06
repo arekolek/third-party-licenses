@@ -2,6 +2,7 @@
     "uniqueId": "com.example.generated.google.androidx.tracing.library",
     "name": "AndroidX tracing library",
     "licenses": [
-        "androidx_tracing_library"
+        "BSD-2",
+        "AndroidX tracing library license"
     ]
 }

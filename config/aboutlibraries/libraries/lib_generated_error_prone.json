@@ -2,6 +2,7 @@
     "uniqueId": "com.example.generated.google.error.prone",
     "name": "Error Prone",
     "licenses": [
-        "error_prone"
+        "Apache-2.0",
+        "Error Prone license"
     ]
 }

@@ -1,0 +1,5 @@
+{
+    "name": "Checker Framework Annotations license",
+    "content": "A few parts of the Checker Framework have more permissive licenses.\n\n * The annotations are licensed under the MIT License.  (The text of this\n   license appears below.)  More specifically, all the parts of the Checker\n   Framework that you might want to include with your own program use the\n   MIT License.  This is the checker-qual.jar file and all the files that\n   appear in it:  every file in a qual/ directory, plus utility files such\n   as NullnessUtil.java, RegexUtil.java, SignednessUtil.java, etc.\n   In addition, the cleanroom implementations of third-party annotations,\n   which the Checker Framework recognizes as aliases for its own\n   annotations, are licensed under the MIT License.\n\n===========================================================================\n\nMIT License:\n\n\n\n===========================================================================",
+    "hash": "481bde7c597a5c60b57fa25c34dc8ec2"
+}

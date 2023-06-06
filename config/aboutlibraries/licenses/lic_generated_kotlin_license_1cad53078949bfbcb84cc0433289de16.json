@@ -1,0 +1,5 @@
+{
+    "name": "Kotlin license",
+    "content": "Files: kotlinc/*\n\n                                 \n\n------------------\n\nFiles: kotlinc/lib/trove4j.jar\n\n\n          \n\n\n------------------\n\nFiles:\n\nThe version of Rhino used in GWT is licensed under a dual license,\nNetscape Public License 1.1 / GNU General Public License.\nThe text of the Netscape Public License\nis provided below (http://website-archive.mozilla.org/www.mozilla.org/mpl/MPL/NPL/1.1/):\n\n\n============================================================================\n\n\t  \n============================================================================\n\n------------------\n\nFiles: kotlinc/lib/kotlin-compiler.jar\n\nThe MIT License\n\n\n\n------------------\n\nFiles:\n\n\n\n------------------\n\nFiles:",
+    "hash": "1cad53078949bfbcb84cc0433289de16"
+}

@@ -2,6 +2,7 @@
     "uniqueId": "com.example.generated.google.apksig",
     "name": "apksig",
     "licenses": [
-        "apksig"
+        "BSD-2",
+        "apksig license"
     ]
 }

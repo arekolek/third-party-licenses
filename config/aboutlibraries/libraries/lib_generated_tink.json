@@ -2,6 +2,7 @@
     "uniqueId": "com.example.generated.google.tink",
     "name": "Tink",
     "licenses": [
-        "tink"
+        "Apache-2.0",
+        "Tink license"
     ]
 }

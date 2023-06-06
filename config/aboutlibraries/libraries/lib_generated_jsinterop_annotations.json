@@ -2,6 +2,7 @@
     "uniqueId": "com.example.generated.google.jsinterop.annotations",
     "name": "JsInterop Annotations",
     "licenses": [
-        "jsinterop_annotations"
+        "Apache-2.0",
+        "JsInterop Annotations license"
     ]
 }

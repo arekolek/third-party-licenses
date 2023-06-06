@@ -2,6 +2,7 @@
     "uniqueId": "com.example.generated.google.checker.framework.annotations",
     "name": "Checker Framework Annotations",
     "licenses": [
-        "checker_framework_annotations"
+        "MIT",
+        "Checker Framework Annotations license"
     ]
 }

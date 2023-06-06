@@ -2,6 +2,7 @@
     "uniqueId": "com.example.generated.google.guava.jdk5",
     "name": "Guava JDK5",
     "licenses": [
-        "guava_jdk5"
+        "Apache-2.0",
+        "Guava JDK5 license"
     ]
 }

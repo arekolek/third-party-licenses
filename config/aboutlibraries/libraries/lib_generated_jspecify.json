@@ -2,6 +2,7 @@
     "uniqueId": "com.example.generated.google.jspecify",
     "name": "JSpecify",
     "licenses": [
-        "jspecify"
+        "Apache-2.0",
+        "JSpecify license"
     ]
 }

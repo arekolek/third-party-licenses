@@ -17,4 +17,5 @@
 #
 
 ./gradlew updateGoogleLicenses
+rm config/aboutlibraries/licenses/lic_generated_txt_*.txt
 ./gradlew lib-core:exportLibraryDefinitions -PaboutLibraries.exportPath=src/main/res/raw/ -PaboutLibraries.exportVariant=release

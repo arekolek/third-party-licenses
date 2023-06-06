@@ -2,6 +2,7 @@
     "uniqueId": "com.example.generated.google.jsr.305",
     "name": "JSR 305",
     "licenses": [
-        "jsr_305"
+        "BSD-3-2",
+        "JSR 305 license"
     ]
 }

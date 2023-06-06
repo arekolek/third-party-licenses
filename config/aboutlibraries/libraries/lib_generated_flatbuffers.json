@@ -2,6 +2,7 @@
     "uniqueId": "com.example.generated.google.flatbuffers",
     "name": "FlatBuffers",
     "licenses": [
-        "flatbuffers"
+        "Apache-2.0",
+        "FlatBuffers license"
     ]
 }

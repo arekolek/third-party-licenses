@@ -104,17 +104,17 @@ aboutLibraries {
     fetchRemoteFunding = false
     excludeFields = ["artifactVersion", "developers", "funding", "description", "scm"]
     strictMode = com.mikepenz.aboutlibraries.plugin.StrictMode.FAIL
-    allowedLicenses = [
-            "ASDKL",
-            "Apache-2.0",
-            "BSD-2-Clause",
-            "BSD-3-Clause",
-            "CC0-1.0",
-            "Google Play Services dependency license",
-            "Lokalise License",
-            "MIT",
-            "Play Integrity API Terms of Service",
-            "SQLCipher Community Edition License",
-    ]
+//    allowedLicenses = [
+//            "ASDKL",
+//            "Apache-2.0",
+//            "BSD-2-Clause",
+//            "BSD-3-Clause",
+//            "CC0-1.0",
+//            "Google Play Services dependency license",
+//            "Lokalise License",
+//            "MIT",
+//            "Play Integrity API Terms of Service",
+//            "SQLCipher Community Edition License",
+//    ]
     prettyPrint = true
 }

@@ -2,6 +2,7 @@
     "uniqueId": "com.example.generated.google.androidx.architecture.core.common.library",
     "name": "AndroidX architecture core common library",
     "licenses": [
-        "androidx_architecture_core_common_library"
+        "BSD-2",
+        "AndroidX architecture core common library license"
     ]
 }
